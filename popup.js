@@ -14,7 +14,7 @@ document.getElementById("long").onclick = function(){
 }
 
 function startTimer(){
-    
+  
 }
 
 // three modes

@@ -5,13 +5,21 @@ const timer = {
     longBreakInterval: 4,
   };
 
-var short = document.getElementById("short");
-short.onclick = function(){
+document.getElementById("short").onclick = function(){
 
 }
 
+document.getElementById("long").onclick = function(){
+
+}
+
+function startTimer(){
+    
+}
+
+// three modes
 const btns = document.querySelector('');
 btns.addEventListener('click', handleBtns);
 function handleBtns(event){
-    const
+
 }

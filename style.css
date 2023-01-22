@@ -4,7 +4,7 @@ body {
     display: grid;
     height: 100vh;
     place-items: center;
-    min-width: 800px;
+    min-width: 400px;
   }
 
 /* Dropdown Button */

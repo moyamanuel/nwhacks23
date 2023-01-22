@@ -4,6 +4,10 @@ body {
     display: grid;
     height: 100vh;
     place-items: center;
+    width: 500px; /* your desired width */
+    height: 300px;
+    position: relative;
+    vertical-align:middle;
   }
 
 /* Dropdown Button */

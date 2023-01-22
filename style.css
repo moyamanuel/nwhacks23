@@ -9,18 +9,66 @@ body {
 
 
 /* Buttons */
-
-#default {
-  background-color: #9eeaf2; 
-  border: none;
-  color: black;
-  padding: 15px 32px;
+.button {
+  background-color: #bf9c86; 
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   border-radius: 10px;
-  border: 2px solid #000000; /* Green */
+  border: 2px solid #5b402f; 
+  width: 100px;
+}
+#default {
+  background-color: #bf9c86; 
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid #5b402f; 
+  width: 100px;
+}
+#short {
+  background-color: #bf9c86; 
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid #5b402f; 
+  width: 100px;
+}
+#long {
+  background-color: #bf9c86; 
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid #5b402f; 
+  width: 100px;
+}
+#start {
+  background-color: #bf9c86; 
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid #5b402f; 
+  width: 200px;
+}
 
   
   .base-timer {

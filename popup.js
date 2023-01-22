@@ -1,31 +1,45 @@
-const timer = {
+const tim = {
     pomodoro: 25,
     shortBreak: 5,
     longBreak: 35,
     longBreakInterval: 4,
   };
 
-document.getElementById("default").onclick = function(){
-    startTimer(pomodoro,0);
-}
-document.getElementById("short").onclick = function(){
-    startTimer(shortBreak,0);
-}
+document.addEventListener('DOMContentLoaded', function(){
+    var link = document.getElementById("default");
+    link.addEventListener('click', function(){
+        startTimer(tim.pomodoro,0);
+        //console.log('Hello');
+    })
+})
 
-document.getElementById("long").onclick = function(){
-    startTimer(longBreak,0);
-}
+document.addEventListener('DOMContentLoaded', function(){
+    var link = document.getElementById("short");
+    link.addEventListener('click', function(){
+        startTimer(tim.shortBreak,0);
+    })
+})
+
+document.addEventListener('DOMContentLoaded', function(){
+    var link = document.getElementById("long");
+    link.addEventListener('click', function(){
+        startTimer(tim.longBreak,0);
+    })
+})
+
 
 function startTimer(min, sec){
-    var min;
-    var sec;
-    const time = new String(min + ":" + sec);
-    document.getElementById("timer").innerHTML = time;
+    if (sec < 10){
+        sec = "0" + String(sec)
+    }
+    const tim2 = new String(min + ":" + sec);
+    document.getElementById("timer").innerHTML = tim2;
 }
 
-// three modes
-const btns = document.querySelector('');
-btns.addEventListener('click', handleBtns);
-function handleBtns(event){
-
+function startDecreasing(){
+    
 }
+
+// function test1() {
+//     console.log("Here");
+// }

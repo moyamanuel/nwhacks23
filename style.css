@@ -67,7 +67,19 @@ body {
   font-size: 20px;
   border-radius: 10px;
   border: 2px solid #5b402f; 
-  width: 200px;
+  width: 150px;
+}
+#stop {
+  background-color: #bf9c86; 
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid #5b402f; 
+  width: 150px;
 }
 
   
@@ -121,5 +133,5 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 48px;
+    font-size: 100px;
   }
